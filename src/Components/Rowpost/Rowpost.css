@@ -1,0 +1,65 @@
+.row{
+    margin-left: 20px;
+    color: #fff;
+}
+.posters{
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    transition: all 2s;
+}
+.posters::-webkit-scrollbar{
+    display: none;
+}
+.poster{
+    cursor: pointer;
+    width: 230px !important;
+    max-height: 280px;
+    margin-right: 10px;
+}
+.poster:hover{
+    transform: scale(1.1);
+}
+.smallPoster{
+    cursor: pointer;
+    width: 130px;
+    max-height: 180px;
+    margin-right: 10px;
+}
+.smallPoster:hover{
+    transform: scale(1.05);
+}
+.youtube-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100% !important;
+}
+.button-close{
+    width: 200px;
+    height: 40px;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    background-color: rgb(200, 198, 198) !important;
+    color: #111;
+    font-size: 20px;
+    font-weight: bold;
+}
+.youtube-main{
+    transition: all 2s;
+}
+.smalltitle{
+    position: relative;
+    top: -14px;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.904);
+    text-align: center;
+}
+.Documentitle{
+    position: relative;
+    top: -22px;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.904);
+    text-align: center;
+}
